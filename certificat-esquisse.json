@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.blockcerts.org/schema/3.0/context.json"
+  ],
+  "id": "urn:uuid:bbba8553-8ec1-445f-82c9-a57251dd731c",
+  "type": [
+    "VerifiableCredential",
+    "BlockcertsCredential"
+  ],
+  "issuer": {
+    "name": "Icone Mobilier",
+    "email": "icone.mobilier@gmail.com",
+    "id": ""
+  },
+  "issuanceDate": "2021-12-13T19:33:24Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21"
+  },
+  "display": {
+    "contentMediaType": "text/html",
+    "content": "<html><body><h1>Some content</h1></body></html>"
+  },
+  "nonce": ""
+}
