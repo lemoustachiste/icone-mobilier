@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@blockcerts/blockcerts-verifier": "^1.41.0"
+  }
+}

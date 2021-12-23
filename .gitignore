@@ -1,6 +1,5 @@
 node_modules/*
+!node_modules/@blockcerts
+!node_modules/@webcomponents
 .idea/*
 .DS_Store
-/coverage
-/lib
-test/manual-testing/browser/index-iife.js
