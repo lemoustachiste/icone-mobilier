@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+        <title>blockcerts-verifier demo</title>
+
+        <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+        <script src="./node_modules/@blockcerts/blockcerts-verifier/dist/main.js"></script>
+
+        <style>
+            .main {
+                max-width: 700px;
+                margin: 0 auto;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <blockcerts-verifier display-mode="fullscreen" src="./certificates/signed/certificat-esquisse.json"></blockcerts-verifier>
+        </div>
+    </body>
+</html>
